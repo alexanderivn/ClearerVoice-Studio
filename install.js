@@ -4,7 +4,9 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/modelscope/ClearerVoice-Studio.git app"
+          // For Windows, use 'git clone -c core.protectNTFS=false' to handle reserved filenames like 'aux.scp'.
+          // For other platforms (Linux, macOS), use the standard 'git clone'.
+          "{{(platform === 'win32' ? 'git clone -c core.protectNTFS=false https://github.com/modelscope/ClearerVoice-Studio.git app' : 'git clone https://github.com/modelscope/ClearerVoice-Studio.git app')}}"
         ]
       }
     },
