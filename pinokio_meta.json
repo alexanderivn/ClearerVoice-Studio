@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "title": "Project GitHub",
+      "value": "https://github.com/modelscope/ClearerVoice-Studio"
+    },
+    {
+      "title": "ModelScope Hub",
+      "value": "https://modelscope.cn/home"
+    },
+    {
+      "title": "ModelScope GitHub",
+      "value": "https://github.com/modelscope"
+    }
+  ],
+  "posts": [
+    "https://github.com/modelscope/ClearerVoice-Studio/blob/main/README.md",
+    "https://modelscope.cn/models/damo/speech_frcrn_ans_cirm_16k/summary"
+  ]
+}
